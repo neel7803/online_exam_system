@@ -15,3 +15,7 @@ urlpatterns = [
 urlpatterns = [
     path('', login_view, name='login'),
 ]
+
+urlpatterns = [
+    path('', login_view, name='login'),
+]
