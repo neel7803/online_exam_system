@@ -9,5 +9,17 @@ urlpatterns = [
     path('', login_view, name='login'),
 ]
 urlpatterns = [
-    path('', login_view, name='login'),
+    path('', login_view, name='admin'),
+]
+
+urlpatterns = [
+    path('', login_view, name='admin'),
+]
+
+urlpatterns = [
+    path('', login_view, name='admin'),
+]
+
+urlpatterns = [
+    path('', login_view, name='admin'),
 ]
