@@ -4,22 +4,3 @@ from .views import login_view
 urlpatterns = [
     path('', login_view, name='login'),
 ]
-
-urlpatterns = [
-    path('', login_view, name='login'),
-]
-urlpatterns = [
-    path('', login_view, name='admin'),
-]
-
-urlpatterns = [
-    path('', login_view, name='admin'),
-]
-
-urlpatterns = [
-    path('', login_view, name='admin'),
-]
-
-urlpatterns = [
-    path('', login_view, name='admin'),
-]
